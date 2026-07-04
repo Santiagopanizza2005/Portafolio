@@ -1,11 +1,11 @@
-import { Hero } from "@/components/Hero";
+import { HeroCards } from "@/components/HeroCards";
 import { ProjectCard } from "@/components/ProjectCard";
 import { projects } from "@/data/projects";
 
 export default function Home() {
   return (
     <main className="flex-1">
-      <Hero />
+      <HeroCards />
 
       <section id="proyectos" className="mx-auto max-w-5xl px-6 pb-24">
         <h2 className="mb-10 text-center text-2xl font-semibold sm:text-3xl">
